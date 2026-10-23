@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Chalkd — the free whiteboard for teachers</title>
+  <meta name="description" content="Chalkd is a free, open-source whiteboard for classroom touchscreens and interactive displays. Write with a finger, mark up worksheets, and keep a notebook for every class. No accounts, no ads, no tracking. For Windows and Linux.">
+  <meta name="theme-color" content="#17222e">
+
+  <!-- Once the site has a domain, make og:image an absolute URL and add <link rel="canonical">. -->
+  <meta property="og:site_name" content="Chalkd">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chalkd — the free whiteboard for teachers">
+  <meta property="og:description" content="A touch-first whiteboard for your classroom display. Free and open source, with no accounts and nothing to sign up for.">
+  <meta property="og:image" content="img/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="A Chalkd board showing a handwritten algebra lesson on graph paper">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32.png">
+  <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+  <link rel="preload" href="fonts/fraunces.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/inter.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <header class="nav" id="top">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top" aria-label="Chalkd home">
+        <img src="img/icon-64.webp" width="32" height="32" alt="">
+        <span>Chalkd</span>
+      </a>
+      <nav class="nav-links" aria-label="Main">
+        <a href="#features">Features</a>
+        <a href="#touch">Touch</a>
+        <a href="#privacy">Privacy</a>
+        <a href="#faq">FAQ</a>
+        <a href="https://github.com/DibsCodes/chalkd" class="gh">GitHub</a>
+      </nav>
+      <a class="btn btn-sm" href="#download">Download free</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="wrap hero-copy">
+        <p class="eyebrow">Free &amp; open source · Windows and Linux</p>
+        <h1>Your classroom whiteboard, <mark>minus the clutter.</mark></h1>
+        <p class="lede">Chalkd is a whiteboard app for the touchscreen at the front of your room. Write with a finger, mark up any worksheet, and find every board right where you left it for the next class.</p>
+        <div class="cta-row">
+          <a class="btn btn-lg" href="#download">Download Chalkd</a>
+          <a class="btn btn-lg btn-ghost" href="#features">See what it does</a>
+        </div>
+        <ul class="ticks" aria-label="At a glance">
+          <li>No account</li>
+          <li>No ads or tracking</li>
+          <li>Works offline</li>
+        </ul>
+      </div>
+
+      <div class="wrap hero-shot">
+        <figure class="display">
+          <img src="img/screens/hero-1920.webp"
+               srcset="img/screens/hero-960.webp 960w, img/screens/hero-1920.webp 1920w"
+               sizes="(max-width: 1200px) 94vw, 1120px"
+               width="1920" height="1200"
+               alt="A Chalkd board on graph paper titled Two-step equations. The teacher has solved 2x + 5 = 17 step by step in handwriting, circled x = 6 in green, checked the answer, and boxed three practice problems under Your turn!">
+        </figure>
+        <p class="note note-a" aria-hidden="true">written with a finger <svg viewBox="0 0 60 40"><path d="M2 6 C 22 4, 44 12, 54 34 M 44 28 L 54 34 L 56 22"/></svg></p>
+        <p class="note note-b" aria-hidden="true"><svg viewBox="0 0 60 40"><path d="M58 34 C 40 36, 14 26, 6 6 M 2 16 L 6 6 L 16 12"/></svg> saved on its own</p>
+      </div>
+    </section>
+
+    <!-- Promise strip -->
+    <section class="promise" aria-label="Why teachers pick Chalkd">
+      <div class="wrap promise-grid">
+        <div>
+          <h2>Free. For real.</h2>
+          <p>No trial, no premium tier, no “contact sales.” Chalkd is open source under the GPL, so it stays free.</p>
+        </div>
+        <div>
+          <h2>Nothing to sign up for</h2>
+          <p>No accounts, no logins, no student data. Open it and start writing.</p>
+        </div>
+        <div>
+          <h2>Your boards are your files</h2>
+          <p>Every board saves itself to your Documents folder. Copy them, back them up, or take them to another school.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Feature: worksheets -->
+    <section class="feature" id="features">
+      <div class="wrap section-head">
+        <p class="eyebrow">Features</p>
+        <h2 class="section-title">The tools you use mid-lesson, and <mark>nothing you don’t.</mark></h2>
+      </div>
+
+      <div class="wrap row">
+        <div class="row-copy">
+          <h3>Mark up any worksheet</h3>
+          <p>Print to Chalkd from Word, Google Docs, your browser, or any app with a Print button. The document opens as a new board named after it. You can also drop a PDF or picture right onto the board.</p>
+          <ul class="list">
+            <li>PDF pages line up top to bottom, ready to write on</li>
+            <li>The board keeps going past the page, so there’s always room to work a problem out</li>
+            <li>Highlighter goes under your ink, so it never dulls your writing</li>
+          </ul>
+        </div>
+        <figure class="shot">
+          <img src="img/screens/worksheet-1920.webp"
+               srcset="img/screens/worksheet-960.webp 960w, img/screens/worksheet-1920.webp 1920w"
+               sizes="(max-width: 900px) 94vw, 640px" width="1920" height="1200" loading="lazy"
+               alt="A printed Linear Equations Practice worksheet opened in Chalkd. Problems are solved in blue ink with red check marks, key phrases are highlighted, and word problem 5 is worked out in the open space beside the page.">
+        </figure>
+      </div>
+
+      <div class="wrap row row-flip">
+        <div class="row-copy">
+          <h3>A notebook for every class</h3>
+          <p>Keep a notebook for each period or subject and a board for each lesson. Everything saves as you write, and the board you were last on opens when you start Chalkd.</p>
+          <ul class="list">
+            <li>Duplicate a board to reuse it with your next period</li>
+            <li>Long-press to rename, move, or drag boards into order</li>
+            <li>Notebooks are ordinary folders, so backups are easy</li>
+          </ul>
+        </div>
+        <figure class="shot">
+          <img src="img/screens/notebooks.webp" width="960" height="720" loading="lazy"
+               alt="The Notebooks drawer in dark mode, listing notebooks for Period 1 Algebra I, Period 4 Biology, Period 6 Geometry and Department meeting, each with lesson boards inside.">
+        </figure>
+      </div>
+
+      <div class="wrap row">
+        <div class="row-copy">
+          <h3>Chalkboard, graph paper, or lined</h3>
+          <p>Give each board the background that fits the lesson: six colors, including chalkboard green, with blank, dot, grid, or lined patterns. Make any look the default for new boards.</p>
+          <ul class="list">
+            <li>Light and dark themes for the toolbar</li>
+            <li>Put the toolbar on any edge of the screen, where everyone can reach it</li>
+            <li>Make the toolbar bigger for large displays</li>
+          </ul>
+        </div>
+        <figure class="shot">
+          <img src="img/screens/chalkboard-1920.webp"
+               srcset="img/screens/chalkboard-960.webp 960w, img/screens/chalkboard-1920.webp 1920w"
+               sizes="(max-width: 900px) 94vw, 640px" width="1920" height="1200" loading="lazy"
+               alt="A chalkboard-green Chalkd board with the toolbar on the left. It shows a handwritten Photosynthesis lesson with the chemical equation, labeled terms, bullet notes, and a drawing of the sun shining on a leaf.">
+        </figure>
+      </div>
+    </section>
+
+    <!-- Touch -->
+    <section class="touch" id="touch">
+      <div class="wrap section-head">
+        <p class="eyebrow eyebrow-light">Touch</p>
+        <h2 class="section-title">Made for fingers, not a mouse</h2>
+        <p class="section-lede">You won’t have to walk back to the laptop. Chalkd knows how many fingers are on the board and does the right thing.</p>
+      </div>
+      <div class="wrap gestures">
+        <article class="gesture">
+          <svg viewBox="0 0 200 120" aria-hidden="true">
+            <path class="ink" d="M24 82 C 44 40, 60 40, 70 70 S 100 96, 116 58 S 150 30, 164 52"/>
+            <circle class="finger" cx="164" cy="52" r="11"/>
+          </svg>
+          <h3>One finger writes</h3>
+          <p>with whatever pen or highlighter you picked.</p>
+        </article>
+        <article class="gesture">
+          <svg viewBox="0 0 200 120" aria-hidden="true">
+            <path class="trail" d="M60 82 L 120 52 M76 96 L 136 66"/>
+            <circle class="finger" cx="124" cy="50" r="11"/>
+            <circle class="finger" cx="140" cy="66" r="11"/>
+            <path class="arrow" d="M150 30 L 172 20 M 162 16 L 172 20 L 166 30"/>
+          </svg>
+          <h3>Two fingers move the board</h3>
+          <p>Flick it and the board glides to a stop.</p>
+        </article>
+        <article class="gesture">
+          <svg viewBox="0 0 200 120" aria-hidden="true">
+            <path class="ink" d="M20 66 C 40 40, 52 40, 64 62"/>
+            <path class="ink" d="M140 62 C 152 84, 168 84, 182 58"/>
+            <circle class="finger" cx="88" cy="58" r="10"/>
+            <circle class="finger" cx="106" cy="50" r="10"/>
+            <circle class="finger" cx="122" cy="62" r="10"/>
+          </svg>
+          <h3>Three fingers erase</h3>
+          <p>whatever tool is selected. Circle some ink, then tap inside the loop to clear it all.</p>
+        </article>
+        <article class="gesture">
+          <svg viewBox="0 0 200 120" aria-hidden="true">
+            <circle class="finger" cx="70" cy="50" r="9"/>
+            <circle class="finger" cx="76" cy="72" r="9"/>
+            <circle class="finger" cx="130" cy="50" r="9"/>
+            <circle class="finger" cx="124" cy="72" r="9"/>
+            <path class="arrow" d="M50 61 L 24 61 M 32 53 L 24 61 L 32 69 M150 61 L 176 61 M 168 53 L 176 61 L 168 69"/>
+          </svg>
+          <h3>Four fingers zoom</h3>
+          <p>Two on each hand. Spread them to zoom in, bring them together to zoom out.</p>
+        </article>
+      </div>
+      <p class="wrap touch-foot">Prefer two fingers to erase? Swap them in Settings. Palm rejection and ink smoothing are there too, and a mouse, trackpad, or pen tablet works just as well.</p>
+    </section>
+
+    <!-- Feature cards -->
+    <section class="cards-section">
+      <div class="wrap section-head">
+        <h2 class="section-title">The little things add up</h2>
+      </div>
+      <div class="wrap cards">
+        <article class="card">
+          <img src="img/screens/pens.webp" width="960" height="720" loading="lazy"
+               alt="The pen editor open from the toolbar, with twelve colors, a custom color picker, and a thickness slider.">
+          <div class="card-body">
+            <h3>Pens just how you like them</h3>
+            <p>Add as many pens and highlighters as you want. Tap one to use it, tap again to change its color or thickness, and slide it to reorder.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="img/screens/select.webp" width="960" height="720" loading="lazy"
+               alt="A lasso selection around a boxed set of practice problems, showing resize handles and a bar reading 44 selected with a Delete button.">
+          <div class="card-body">
+            <h3>Lasso, move, resize</h3>
+            <p>Loop around anything to select it. Drag it out of the way, pull a corner to resize, or delete it.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="img/screens/export.webp" width="960" height="720" loading="lazy"
+               alt="The Export dialog with choices for PDF or PNG, one page or printable pages, and whether to include the board background.">
+          <div class="card-body">
+            <h3>Notes for absent students</h3>
+            <p>Export a board as a PDF or picture to post for your class. Choose one page that fits everything, or printable Letter or A4 pages.</p>
+          </div>
+        </article>
+        <article class="card">
+          <img src="img/screens/settings.webp" width="960" height="720" loading="lazy"
+               alt="The Settings panel showing background colors and patterns, Use this look for new boards, and an ink smoothing slider.">
+          <div class="card-body">
+            <h3>Settings that make sense</h3>
+            <p>Backgrounds, ink smoothing, palm rejection, gestures, theme, and toolbar size, all on one panel in plain language.</p>
+          </div>
+        </article>
+      </div>
+      <div class="wrap minis">
+        <div class="mini"><h3>Undo anything</h3><p>Even Clear Board. Ctrl+Z works too.</p></div>
+        <div class="mini"><h3>Paste and drag</h3><p>Paste a picture or drag files right onto the board.</p></div>
+        <div class="mini"><h3>Sharp at any zoom</h3><p>Exported PDFs keep ink as vectors, so it prints crisp.</p></div>
+        <div class="mini"><h3>Shortcuts at a desk</h3><p>Ctrl+1 fits everything on screen, Ctrl+0 goes back to 100%.</p></div>
+      </div>
+    </section>
+
+    <!-- Privacy -->
+    <section class="privacy" id="privacy">
+      <div class="wrap privacy-inner">
+        <div>
+          <p class="eyebrow">Privacy</p>
+          <h2 class="section-title">No student data. Nothing to approve.</h2>
+          <p class="section-lede">Chalkd has no accounts, no cloud, and no analytics. It never goes online. Your boards stay on your computer, in a folder you choose.</p>
+        </div>
+        <ul class="checks">
+          <li><strong>No sign-in.</strong> Nobody, including your students, makes an account.</li>
+          <li><strong>Works offline.</strong> No internet needed, even when the Wi-Fi drops mid-lesson.</li>
+          <li><strong>Easy for IT.</strong> The Windows installer sets Chalkd up for just you, with no admin rights needed.</li>
+          <li><strong>Open source.</strong> Anyone can read the code on GitHub and see exactly what it does.</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Download -->
+    <section class="download" id="download">
+      <div class="wrap section-head">
+        <p class="eyebrow eyebrow-light">Download</p>
+        <h2 class="section-title">Get Chalkd for your classroom</h2>
+        <p class="section-lede">Free forever. Latest version: <span data-version>1.3.0</span>.</p>
+      </div>
+      <div class="wrap dl-grid">
+        <article class="dl">
+          <h3>Windows</h3>
+          <p class="dl-sub">Windows 10 or 11, 64-bit</p>
+          <a class="btn btn-lg btn-light" data-asset="setup" href="https://github.com/DibsCodes/chalkd/releases/download/v1.3.0/Chalkd-1.3.0-Setup.exe">Download installer</a>
+          <p class="dl-note">Installs for you alone, with no admin rights needed. The installer isn’t signed yet, so if Windows says “Windows protected your PC”, choose <em>More info › Run anyway</em>.</p>
+          <p class="dl-note"><a data-asset="zip" href="https://github.com/DibsCodes/chalkd/releases/download/v1.3.0/Chalkd-win32-x64-1.3.0.zip">Portable .zip</a> (no install; Print to Chalkd needs the installer)</p>
+        </article>
+        <article class="dl">
+          <h3>Linux</h3>
+          <p class="dl-sub">Arch Linux and Omarchy</p>
+          <a class="btn btn-lg btn-light" data-asset="arch" href="https://github.com/DibsCodes/chalkd/releases/download/v1.3.0/chalkd-1.3.0-1-x86_64.pkg.tar.zst">Download package</a>
+          <p class="dl-note">Then install it:</p>
+          <pre class="cmd"><code data-cmd>sudo pacman -U chalkd-1.3.0-1-x86_64.pkg.tar.zst</code></pre>
+          <p class="dl-note">The package adds the Chalkd printer for you. On other distros, <a href="https://github.com/DibsCodes/chalkd#running-from-source">build from source</a>.</p>
+        </article>
+      </div>
+      <p class="wrap dl-foot">Older versions, checksums, and release notes are on <a href="https://github.com/DibsCodes/chalkd/releases">GitHub Releases</a>.</p>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq" id="faq">
+      <div class="wrap faq-inner">
+        <h2 class="section-title">Questions teachers ask</h2>
+        <details>
+          <summary>Is Chalkd really free?</summary>
+          <p>Yes. There’s no paid version, no ads, and no account. Chalkd is free and open-source software under the GNU GPL (version 3 or later), so anyone can use it, share it, and check how it works.</p>
+        </details>
+        <details>
+          <summary>Will it work on my classroom display?</summary>
+          <p>If your computer treats the display as a touchscreen, Chalkd’s finger gestures will work on it. Chalkd also works with a mouse, trackpad, or pen tablet: the mouse draws, the scroll wheel moves the board, and Ctrl+scroll zooms.</p>
+          <p>Windows keeps three- and four-finger swipes for itself. To erase with three fingers and zoom with four, turn those off. Chalkd’s Settings › Touch has a button that opens the right Windows setting. Windows support is new, so if something doesn’t work on your hardware, please <a href="https://github.com/DibsCodes/chalkd/issues">let us know</a>.</p>
+        </details>
+        <details>
+          <summary>What about student privacy?</summary>
+          <p>Chalkd doesn’t collect anything. It has no accounts, no sign-in, no cloud service, and no analytics, and it never connects to the internet. Boards are files on your own computer.</p>
+        </details>
+        <details>
+          <summary>Where are my boards saved?</summary>
+          <p>In a <strong>Chalkd</strong> folder inside Documents. Each notebook is a folder and each board is a <code>.chalkd</code> file. You can move the Chalkd folder in Settings, for example into a folder your school already backs up or syncs.</p>
+        </details>
+        <details>
+          <summary>How does Print to Chalkd work?</summary>
+          <p>Chalkd adds a printer named <strong>Chalkd</strong> to your computer. Print anything to it and it opens as a new board, named after the document, in the notebook you’re working in. On Linux the package adds the printer for you. On Windows, open Settings › Printing › <em>Add the Chalkd printer…</em> (Windows asks for admin permission once). On Windows you can also right-click a PDF and choose <em>Send to › Chalkd</em>.</p>
+        </details>
+        <details>
+          <summary>Is there a Mac, Chromebook, or iPad version?</summary>
+          <p>Not yet. Chalkd runs on Windows and Linux today.</p>
+        </details>
+        <details>
+          <summary>Who makes Chalkd?</summary>
+          <p>Chalkd is built by a classroom teacher who wanted a whiteboard that stays out of the way while teaching. Ideas and bug reports are welcome on <a href="https://github.com/DibsCodes/chalkd/issues">GitHub</a>.</p>
+        </details>
+      </div>
+    </section>
+
+    <section class="closer">
+      <div class="wrap">
+        <div class="closer-inner">
+          <h2>Ready for tomorrow’s lesson?</h2>
+          <p>Download Chalkd, open it, and start writing.</p>
+          <a class="btn btn-lg" href="#download">Download Chalkd free</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <a class="brand" href="#top">
+        <img src="img/icon-64.webp" width="28" height="28" alt="">
+        <span>Chalkd</span>
+      </a>
+      <p>Free and open source under the <a href="https://github.com/DibsCodes/chalkd/blob/main/LICENSE">GPL-3.0-or-later</a>.</p>
+      <nav aria-label="Footer">
+        <a href="https://github.com/DibsCodes/chalkd">Source code</a>
+        <a href="https://github.com/DibsCodes/chalkd/releases">Releases</a>
+        <a href="https://github.com/DibsCodes/chalkd/issues">Report a problem</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
