@@ -32,6 +32,6 @@ The screenshots come from the real app (the 1.3.0 build), driven over the Chrome
 
 The download buttons link to the 1.3.0 files and `js/main.js` swaps in the latest release's files when the page loads, so a new release doesn't need a site change. If release file names change pattern, update `ASSETS` in `js/main.js`.
 
-## Before launch
+## Hosting
 
-- Pick a domain, then make `og:image` an absolute URL and add a canonical link in `index.html`.
+Served by GitHub Pages from `main` at https://dibscodes.github.io/chalkd-site/. Every push to `main` redeploys it. If the site moves to its own domain, update `canonical`, `og:url` and `og:image` in `index.html`.
