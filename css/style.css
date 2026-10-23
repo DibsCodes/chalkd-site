@@ -264,6 +264,50 @@ mark {
   .row-flip .row-copy { order: 0; }
 }
 
+/* Print to Chalkd */
+.print { padding: 96px 0; background: var(--paper-2); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.steps { list-style: none; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; counter-reset: step; }
+.step {
+  counter-increment: step;
+  background: #fff;
+  border: 1px solid rgba(23, 34, 46, 0.1);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 22px 22px 26px;
+}
+.step svg { width: 100%; height: auto; margin-bottom: 18px; border-radius: 10px; background: var(--paper); }
+.step .page { fill: #fff; stroke: rgba(23, 34, 46, 0.22); stroke-width: 1.5; }
+.step .lines { fill: none; stroke: rgba(23, 34, 46, 0.28); stroke-width: 3; stroke-linecap: round; }
+.step .hl { fill: none; stroke: rgba(255, 212, 0, 0.5); stroke-width: 8; stroke-linecap: round; }
+.step .pill { fill: var(--blue); }
+.step .pill-text { fill: #fff; font: 600 12px var(--sans); }
+.step .menu { fill: #fff; stroke: rgba(23, 34, 46, 0.18); stroke-width: 1.5; }
+.step .menu-text { fill: var(--muted); font: 500 11px var(--sans); }
+.step .pick { fill: rgba(31, 95, 209, 0.1); }
+.step .menu-pick { fill: var(--blue); font-weight: 650; }
+.step .tick { fill: none; stroke: var(--blue); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.step .board { fill: var(--board); }
+.step .ink { fill: none; stroke: var(--chalk); stroke-width: 3; stroke-linecap: round; stroke-linejoin: round; }
+.step h3 { font-family: var(--serif); font-size: 21px; font-weight: 600; margin-bottom: 6px; }
+.step h3::before {
+  /* Handwritten step number, like a note on the board. */
+  content: counter(step);
+  font-family: var(--hand);
+  font-size: 30px;
+  line-height: 0;
+  color: var(--red);
+  margin-right: 10px;
+}
+.step p { color: var(--ink-2); font-size: 15.5px; }
+.print-setup { margin-top: 48px; }
+.print-setup h3 { font-family: var(--serif); font-size: 24px; font-weight: 600; letter-spacing: -0.01em; margin-bottom: 18px; }
+.print-setup dl { margin: 0; display: grid; grid-template-columns: 1fr 2fr; gap: 28px; }
+.print-setup dl > div { border-top: 2px solid var(--ink); padding-top: 16px; }
+.print-setup dt { font-weight: 650; margin-bottom: 4px; }
+.print-setup dd { margin: 0; color: var(--ink-2); font-size: 16px; }
+.print-setup em { font-style: normal; font-weight: 600; color: var(--ink); }
+@media (max-width: 900px) { .steps { grid-template-columns: 1fr; } .print-setup dl { grid-template-columns: 1fr; } }
+
 /* Touch */
 .touch {
   background: var(--board);
